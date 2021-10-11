@@ -10,3 +10,14 @@ header{
   border: 2px solid black;
   height: 100px;
 }
+
+.mds-bg-blue{
+  background-color: #3A546D;
+  color: white;
+}
+
+.mds-bg-dark-blue{
+  background-color: #2C3E50;
+  line-height: 100px;
+  color: white;
+}
