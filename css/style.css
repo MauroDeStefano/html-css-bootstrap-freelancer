@@ -1,15 +1,36 @@
+a{
+  color: black;
+  text-decoration: none;
+}
+
 header{
   background-color: #2C3E50;
   height: 80px;
+  color: white;
 }
 
 .mds-bg-green{
   background-color: #1ABC9C;
 }
 
-.image{
-  border: 2px solid black;
-  height: 100px;
+.fa-bars {
+  border: 1px solid gray;
+  padding: 3px 7px;
+  border-radius: 5px;
+  color: gray;
+}
+
+.mds-container-sm{
+  width: 80%;
+  margin: auto;
+}
+
+.mds-burger{
+  width: 100%;
+}
+
+.fa-bars i{
+  width: 100%;
 }
 
 .mds-bg-blue{
@@ -21,4 +42,96 @@ header{
   background-color: #2C3E50;
   line-height: 100px;
   color: white;
+}
+
+.mds-black{
+  color: black;
+  background-color: black;
+}
+
+/************** header *************/
+
+.mds-row-header{
+  height: 100%;
+}
+
+.mds-logo-text{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header .row{
+  height: 80px;
+}
+
+/**************** JUMBOTRON ***************/
+
+.mds-jumbotron{
+  margin-top: 80px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.mds-img-avatar{
+  height: 200px;
+}
+
+.mds-img-avatar img{
+  width: 200px;
+  padding: 20px;
+}
+
+.mds-main-title{
+  font-weight: 600;
+}
+
+.mds-string {
+  height: 3px;
+  width: 15%;
+  background-color: white;
+}
+
+/* PORTFOLIO */
+
+.mds-portfolio{
+  margin-top: 20px
+} 
+
+.mds-image-portfolio img{
+  width: 100%;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.mds-btn-dnw{
+  color: white !important;
+  border-color: white !important;
+}
+
+.mds-message{
+  width: 100%;
+  height: 150px;
+}
+
+.mds-btn-send{
+  margin: 20px 0;
+  border-color: #1ABC9C;
+}
+
+.mds-icon{
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 40px;
+  margin: 4px 5px;
+}
+
+.mds-icon:hover{
+  cursor: pointer;
+}
+
+.far.fa-copyright{
+  font-size: 12px;
 }
