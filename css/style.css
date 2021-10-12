@@ -9,6 +9,11 @@ header{
   color: white;
 }
 
+.mds-container-xs{
+  width: 40%;
+  margin: 0 auto;
+}
+
 .mds-bg-green{
   background-color: #1ABC9C;
 }
@@ -88,8 +93,14 @@ header .row{
 
 .mds-string {
   height: 3px;
-  width: 15%;
+}
+
+.mds-string.mds-white{
   background-color: white;
+}
+
+.mds-string.mds-black{
+  background-color: black;
 }
 
 /* PORTFOLIO */
